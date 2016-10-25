@@ -1,0 +1,9 @@
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\bin\Debug\Latihan_2_1.exe.config
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\bin\Debug\Latihan_2_1.exe
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\bin\Debug\Latihan_2_1.pdb
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.Form1.resources
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.Properties.Resources.resources
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.csproj.GenerateResource.Cache
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.exe
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.pdb
+E:\College\Framework .NET\Selasa_141111600_FenyArifhienta\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.csprojResolveAssemblyReference.cache
