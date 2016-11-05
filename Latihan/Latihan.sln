@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_3_1", "Latihan_3_1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_4_1", "Latihan_4_1\Latihan_4_1.csproj", "{16383626-FDA3-4D96-AA9C-AD0216F7EC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_5_1", "Latihan_5_1\Latihan_5_1.csproj", "{6DA6FA11-741F-4D1E-A252-2BBDDA463EFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_5_1", "Latihan_5_1\Latihan_5_1.csproj", "{636E3EC9-FF79-4C61-9B79-B46B486A15AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{16383626-FDA3-4D96-AA9C-AD0216F7EC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16383626-FDA3-4D96-AA9C-AD0216F7EC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16383626-FDA3-4D96-AA9C-AD0216F7EC03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DA6FA11-741F-4D1E-A252-2BBDDA463EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DA6FA11-741F-4D1E-A252-2BBDDA463EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DA6FA11-741F-4D1E-A252-2BBDDA463EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DA6FA11-741F-4D1E-A252-2BBDDA463EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636E3EC9-FF79-4C61-9B79-B46B486A15AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636E3EC9-FF79-4C61-9B79-B46B486A15AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636E3EC9-FF79-4C61-9B79-B46B486A15AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636E3EC9-FF79-4C61-9B79-B46B486A15AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

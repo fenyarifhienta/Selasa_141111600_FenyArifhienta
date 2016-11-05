@@ -12,30 +12,30 @@ using System.Reflection;
 
 namespace Latihan_5_1
 {
-    public partial class frmEditor : Form
+    public partial class Form2 : Form
     {
-        frmMain main = (frmMain)frmMain.ActiveForm;
+        Form1 main = (Form1)Form1.ActiveForm;
 
-        public frmEditor()
+        public Form2()
         {
             InitializeComponent();
             Color warna = new Color();
             PropertyInfo[] p = warna.GetType().GetProperties();
 
-            cbBackColor.DrawMode = DrawMode.OwnerDrawFixed;
+            colorbox.DrawMode = DrawMode.OwnerDrawFixed;
 
             foreach (PropertyInfo c in p)
             {
                 if (c.PropertyType == typeof(System.Drawing.Color))
                 {
-                    cbBackColor.Items.Add(c.Name);
+                    colorbox.Items.Add(c.Name);
                 }
             }
 
-            this.cbBackColor.DrawItem += new DrawItemEventHandler(cbBackColor_DItem);
+            this.colorbox.DrawItem += new DrawItemEventHandler(colorbox_DItem);
         }
 
-        private void cbBackColor_DItem(object sender, DrawItemEventArgs e)
+        private void colorbox_DItem(object sender, DrawItemEventArgs e)
         {
             if (e.Index >= 0)
             {
@@ -44,7 +44,7 @@ namespace Latihan_5_1
                 Brush tBrush = new SolidBrush(e.ForeColor);
 
                 g.FillRectangle(brush, e.Bounds);
-                string s = (string)this.cbBackColor.Items[e.Index].ToString();
+                string s = (string)this.colorbox.Items[e.Index].ToString();
                 SolidBrush b = new SolidBrush(Color.FromName(s));
                 e.Graphics.DrawRectangle(Pens.Black, 2, e.Bounds.Top + 1, 20, 11);
                 e.Graphics.FillRectangle(b, 3, e.Bounds.Top + 2, 19, 10);
@@ -55,36 +55,36 @@ namespace Latihan_5_1
             e.DrawFocusRectangle();
         }
 
-        private void frmEditor_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
-            cbBackColor.Text = main.rtbBackColor;
+            colorbox.Text = main.rtbBackColor;
 
-            treeConfig.ExpandAll();
-            treeConfig.SelectedNode = treeConfig.Nodes[0].Nodes[0];
+            treeView1.ExpandAll();
+            treeView1.SelectedNode = treeView1.Nodes[0].Nodes[0];
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            if (treeConfig.SelectedNode == treeConfig.Nodes[0].Nodes[0])
+            if (treeView1.SelectedNode == treeView1.Nodes[0].Nodes[0])
             {
                 tabControl1.SelectedIndex = 0;
             }
         }
 
-        private void btnOK_Click(object sender, EventArgs e)
+        private void okbtn_Click(object sender, EventArgs e)
         {
-            main.rtbBackColor = cbBackColor.Text;
+            main.rtbBackColor = colorbox.Text;
             this.Dispose();
             main.tampilRTB();
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void cancelbtn_Click(object sender, EventArgs e)
         {
             this.Dispose();
             main.tampilRTB();
         }
 
-        private void frmEditor_FormClosed(object sender, FormClosedEventArgs e)
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Dispose();
             main.tampilRTB();
